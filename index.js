@@ -1,6 +1,8 @@
 var tmpStream = require('tmp-stream');
 var getPosition = require('geo-position');
 
+module.exports = createNearbyStream;
+
 function createNearbyStream (places) {
   var tmp = tmpStream();
   getPosition(function (err, pos) {
