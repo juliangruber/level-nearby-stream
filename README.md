@@ -1,7 +1,8 @@
 
 # level-nearby-stream
 
-Stream in nearby places using the browser's geolocation and
+Stream in nearby places using the browser's geolocation, a convenient
+client-side counterpart to
 [level-places](https://github.com/Wayla/level-places).
 
 ## Usage
