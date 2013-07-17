@@ -33,7 +33,7 @@ createNearbyStream(places).on('data', console.log);
 With [npm](http://npmjs.org) do
 
 ```bash
-$ npm install 
+$ npm install level-nearby-stream
 ```
 
 Then bundle for the client using [browserify](http://browserify.org/).
