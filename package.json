@@ -1,6 +1,6 @@
 {
   "name": "level-nearby-stream",
-  "description": "Get a stream of everything that's nearby.",
+  "description": "Stream in nearby places using the browser's geolocation and level-places.",
   "version": "0.0.0",
   "repository": {
     "type": "git",
