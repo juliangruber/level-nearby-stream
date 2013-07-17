@@ -1,0 +1,35 @@
+{
+  "name": "level-nearby-stream",
+  "description": "Get a stream of everything that's nearby.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/level-nearby-stream.git"
+  },
+  "homepage": "https://github.com/juliangruber/level-nearby-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {
+    "geo-position": "0.0.0",
+    "tmp-stream": "~0.1.0"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "keywords": [
+    "level-places",
+    "level",
+    "levelup",
+    "leveldb",
+    "geolocation",
+    "geospatial"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
