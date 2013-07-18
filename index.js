@@ -3,9 +3,10 @@ var getPosition = require('geo-position');
 
 module.exports = createNearbyStream;
 
-function createNearbyStream (places) {
+function createNearbyStream (places, opts) {
+  if (!opts) opts = {};
   var tmp = tmpStream();
-  getPosition(function (err, pos) {
+  getPosition(opts, function (err, pos) {
     if (err) return tmp.emit('error', err);
     tmp.replace(places.createReadStream(pos.latitude, pos.longitude));
   });

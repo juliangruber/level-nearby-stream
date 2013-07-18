@@ -26,7 +26,13 @@ createNearbyStream(places).on('data', console.log);
 
 ## API
 
-### createNearbyStream(places)
+### createNearbyStream(places, options)
+
+Create a readable stream that emits nearby places.
+
+Possible options are:
+
+* `timeout (Number)`: Give up finding the current position after x miliseconds.
 
 ## Installation
 
