@@ -34,6 +34,10 @@ Possible options are:
 
 * `timeout (Number)`: Give up finding the current position after x miliseconds.
 
+### stream#on('position', fn(position))
+
+Emits `position` when `geo-position` finds it.
+
 ## Installation
 
 With [npm](http://npmjs.org) do
