@@ -12,7 +12,7 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "geo-position": "~0.1.0",
+    "geo-position": "~1.0.0",
     "tmp-stream": "~0.1.0"
   },
   "devDependencies": {
