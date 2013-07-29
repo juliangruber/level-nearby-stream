@@ -33,6 +33,9 @@ Create a readable stream that emits nearby places.
 Possible options are:
 
 * `timeout (Number)`: Give up finding the current position after x miliseconds.
+* `limit (Number)`: Limit the result set to x places.
+* `position (Boolean)`: If true, instead of emitting a places name, emit an
+object with `{name, position}`.
 
 ### stream#on('position', fn(position))
 
