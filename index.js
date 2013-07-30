@@ -11,7 +11,7 @@ function createNearbyStream (places, opts) {
     if (err) return tmp.emit('error', err);
 
     tmp.emit('position', pos);
-    var nearby = places.createNearbyStream(pos, opts);
+    var nearby = places.createReadStream(pos, opts);
     tmp.replace(nearby);
   });
 
