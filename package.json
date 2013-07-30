@@ -1,7 +1,7 @@
 {
   "name": "level-nearby-stream",
   "description": "Stream in nearby places using the browser's geolocation and level-places.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/level-nearby-stream.git"
