@@ -32,10 +32,9 @@ Create a readable stream that emits nearby places.
 
 Possible options are:
 
-* `timeout (Number)`: Give up finding the current position after x miliseconds.
-* `limit (Number)`: Limit the result set to x places.
-* `position (Boolean)`: If true, instead of emitting a places name, emit an
-object with `{name, position}`.
+* `timeout (Number)`: Give up finding the current position after x miliseconds
+* plus all the options from [places#createReadStream](https://github.com/Wayla/level-places#placescreatereadstream-latitude-longitude--options)
+* plus all the options from [trie#createSearchStream](https://github.com/juliangruber/level-trie#triecreatesearchstreamstring-options)
 
 ### stream#on('position', fn(position))
 
