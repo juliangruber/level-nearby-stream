@@ -8,7 +8,8 @@ function createNearbyStream (places, opts) {
   var tmp = tmpStream();
 
   getPosition(opts, function (err, pos) {
-    if (err) return tmp.emit('error', err);
+    if (err && !opts.ignoreErrors) return tmp.emit('error', err);
+    if (!pos) pos = {};
 
     tmp.emit('position', pos);
     var nearby = places.createReadStream(pos, opts);

@@ -33,6 +33,7 @@ Create a readable stream that emits nearby places.
 Possible options are:
 
 * `timeout (Number)`: Give up finding the current position after x miliseconds
+* `ignoreErrors (Boolean)`: If true, when a geolocation error happens, an empty position will be used.
 * plus all the options from [places#createReadStream](https://github.com/Wayla/level-places#placescreatereadstream-latitude-longitude--options)
 * plus all the options from [trie#createSearchStream](https://github.com/juliangruber/level-trie#triecreatesearchstreamstring-options)
 
