@@ -10,7 +10,7 @@
   "main": "index.js",
   "dependencies": {
     "geo-position": "~1.0.1",
-    "tmp-stream": "~0.2.0"
+    "tmp-stream": "~0.3.2"
   },
   "keywords": [
     "level-places",
